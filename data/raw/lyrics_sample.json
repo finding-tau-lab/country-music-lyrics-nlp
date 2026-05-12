@@ -1,0 +1,26 @@
+[
+  {
+    "song": "Jolene",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "lyrics": "Jolene, Jolene, Jolene, Jolene\nI'm begging of you please don't take my man\nJolene, Jolene, Jolene, Jolene\nPlease don't take him just because you can\n\nYour beauty is beyond compare\nWith flaming locks of auburn hair\nWith ivory skin and eyes of emerald green",
+    "theme": "jealousy",
+    "entities": ["Jolene", "man"]
+  },
+  {
+    "song": "Before He Cheats",
+    "artist": "Carrie Underwood",
+    "year": 2005,
+    "lyrics": "Right now he's probably slow dancing with a bleached-blonde tramp\nAnd she's probably getting frisky\nRight now he's probably buying her some fruity little drink\n'Cause she can't shoot whiskey",
+    "theme": "revenge",
+    "entities": ["bleached-blonde tramp"]
+  },
+  {
+    "song": "The House That Built Me",
+    "artist": "Miranda Lambert",
+    "year": 2009,
+    "lyrics": "I thought if I could touch this place or feel it\nThis brokenness inside me might start healing\nOut here it's like I'm someone else\nI thought that maybe I could find myself",
+    "theme": "nostalgia",
+    "entities": ["house"]
+  }
+]
