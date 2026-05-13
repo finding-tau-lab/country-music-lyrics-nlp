@@ -1,5 +1,18 @@
+# Virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS junk
 .DS_Store
-*.ipynb_checkpoints/
+Thumbs.db
+
+# Streamlit / local config (optional)
+.streamlit/secrets.toml
