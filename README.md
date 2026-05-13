@@ -1,43 +1,53 @@
-# Country Music Lyrics NLP Parser & Information Extractor
+# Country Music Lyrics NLP Extractor
 
-**End-to-end NLP pipeline for information extraction from unstructured song lyrics.**
+**End-to-End NLP Pipeline Demo** — Turning messy, unstructured country song lyrics into structured, actionable insights.
 
-Built as a portfolio project to demonstrate skills in:
-- Handling unstructured text data
-- Named Entity Recognition (NER)
-- Rule-based + custom entity extraction
-- Data processing pipelines
-- Reproducible Python workflows
+Live demo built with Streamlit.
 
-## Project Goals
-- Ingest raw lyrics
-- Clean and preprocess text
-- Extract structured information (Song Title, Artist, Themes, Key Elements)
-- Output clean JSON for downstream use
-- Build toward a deployable demo (Streamlit planned)
+## Overview
+This project demonstrates a complete information extraction pipeline:
+- Ingest raw song lyrics
+- Clean and preprocess noisy text (phonetic spellings, contractions, disfluencies)
+- Perform Named Entity Recognition and custom entity extraction with SpaCy
+- Detect themes using c-TF-IDF
+- Deliver results through an interactive web app
 
-## Technologies Used
-- Python, pandas, spaCy
-- Jupyter Notebooks
-- Git + GitHub
+## Features
+- Interactive song selector
+- Side-by-side view of original lyrics vs extracted entities
+- Theme detection
+- Clean, production-ready Streamlit interface
+
+## Tech Stack
+- **Python** • **SpaCy** (NER + preprocessing)
+- **c-TF-IDF** (theme extraction)
+- **pandas** • **Streamlit** (UI)
+- Jupyter Notebooks (exploration)
 
 ## Project Structure
 country-music-lyrics-nlp/
+├── app.py                    # Main Streamlit application ← Run this
+├── .streamlit/config.toml    # Streamlit settings
 ├── data/
-│   ├── raw/              # Original lyrics JSON
-│   └── processed/        # Extracted structured data
-├── notebooks/
-│   └── 01_data_exploration.ipynb
-├── src/                  # Future scripts
-├── .venv/                # Virtual environment
+│   ├── raw/                  # Original lyrics
+│   └── processed/            # Extracted JSON
+├── notebooks/                # Exploration & pipeline development
+├── src/                      # Reusable modules (optional)
+├── requirements.txt
 └── README.md
 
-## Quick Start
+## How to Run
 ```bash
-python -m venv venv
-venv\Scripts\activate
-pip install pandas spacy matplotlib seaborn
-python -m spacy download en_core_web_sm
+# 1. Clone & navigate
+cd country-music-lyrics-nlp
 
-Results
-Successfully extracts Song Title, Artist, Themes, and Key Elements from lyrics with rule-based + spaCy pipeline.
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the app
+streamlit run app.py
+
+Why This Project
+Shows high-agency execution: taking messy real-world unstructured data → clean pipeline → polished, interactive tool.
+Directly relevant to enterprise use cases involving text analytics, information extraction, and operational insights.
+Built as a portfolio project alongside full-time analytics work.

@@ -1,0 +1,26 @@
+[
+  {
+    "song": "Wagon Wheel",
+    "artist": "Darius Rucker",
+    "year": 2013,
+    "lyrics": "Headed down south to the land of the pines\nThumbing my way into North Caroline\nStaring up the road and pray to God I see headlights\nI made it down the coast in seventeen hours\nPicking me a bouquet of dogwood flowers",
+    "theme": "journey",
+    "entities": ["North Caroline", "headlights"]
+  },
+  {
+    "song": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "year": 2015,
+    "lyrics": "You're as smooth as Tennessee whiskey\nYou're as sweet as strawberry wine\nYou're as warm as a glass of brandy\nAnd honey, I stay stoned on your love all the time",
+    "theme": "love",
+    "entities": ["Tennessee whiskey"]
+  },
+  {
+    "song": "Hurricane",
+    "artist": "Luke Combs",
+    "year": 2016,
+    "lyrics": "Had a little fun, then we tried to grow up\nFound a little spot, had a little pickup truck\nWe were young and wild, we were free\nThen the rain came down and washed it all away",
+    "theme": "nostalgia",
+    "entities": ["pickup truck"]
+  }
+]
